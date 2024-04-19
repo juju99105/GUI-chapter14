@@ -1,0 +1,14 @@
+HW to Chapter 14 "GUI" (as in lectures) 
+
+When creating a Java program with a graphical user interface (GUI), you can use libraries such as AWT (Abstract Window Toolkit), Swing, or JavaFX. Here's a simple guide on how to add a GUI using Swing, which is quite popular due to its sophisticated set of GUI components:
+
+1. Create a JFrame, which serves as the main window of your application.
+2. add various components like buttons, labels, and text fields. These components are typically placed on a JPanel.
+3. Set up event listeners to handle actions like button clicks or text input.
+4. Finally, make sure to display the window by setting its size, location, and visibility.
+
+What is AWT - Abstract Windowing Toolkit?
+AWT is an older Java library used for creating graphical user interfaces. It offers a basic set of GUI components like buttons, checkboxes, and text fields. AWT components are rendered using the operating system's native GUI toolkit, thus they look like native components. However, this can make them less flexible and slower than Swing components, which are purely written in Java and are platform-independent.
+
+Swing
+Swing is another GUI toolkit for Java, part of Oracle's Java Foundation Classes (JFC). It provides a richer set of GUI components than AWT, including trees, tabbed panes, sliders, and tables. Swing components are fully written in Java, making them platform-independent and highly customizable. This makes Swing a preferred choice for developing complex and feature-rich user interfaces in Java applications.
